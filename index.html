@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer Survey From</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Lucifer Survey From</h1>
+    <p>Thank you for taking time to help us improve the platform</p>
+
+    <form action="submit" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" name="name">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your name">
+        <label for="number" id="number-label">Number</label>
+        <input type="tel" id="number" name="number" placeholder="555-55-555" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <label for="job" id="dropdown-label">Which option describes your current role?</label>
+        <select name="job" id="dropdown">
+            <option value="student">student</option>
+            <option value="full-time-work">full-time-work</option>
+            <option value="interns">interns</option>
+        </select>
+        <div>Would you recomment this form to a friend?<br>
+            <input class="inline" type="radio" name="rating" value="01 Star">
+            <label class="inline" for="01 Star">01 Star</label><br>
+            <input class="inline" type="radio" name="rating" value="03 Star">
+            <label class="inline" for="03 Star">03 Star</label><br>
+            <input class="inline" type="radio" name="rating" value="05 Star">
+            <label class="inline" for="05 Star">05 Star</label>
+        </div>
+        <div>
+            What would you like to see improved?<span>(Check all that apply)</span><br>
+            <input class="inline" type="checkbox" name="video" value="video">
+            <label class="inline" for="video">Video</label><br>
+
+            <input class="inline" type="checkbox" name="wiki" value="wiki">
+            <label class="inline" for="wiki">wiki</label><br>
+
+            <input class="inline" type="checkbox" name="Forum" value="Forum">
+            <label class="inline" for="Forum">Forum</label><br>
+
+            <input class="inline" type="checkbox" name="Challenged" value="Challenged">
+            <label class="inline" for="Challenged">Challenged</label><br>
+
+            <input class="inline" type="checkbox" name="City-Meetup" value="City-Meetup">
+            <label class="inline" for="City-Meetup">City-Meetup</label>
+        </div>
+        <label for="comment">Any Comments or Suggestions?</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        <button id="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

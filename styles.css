@@ -1,0 +1,43 @@
+body {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.508);
+}
+form {
+    border: 1px solid blue;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(40, 40, 41, 0.282);
+    
+}
+input, textarea, button, label, select{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+label:last-of-type{
+    margin-top: 20px ;
+}
+div{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+div > input {
+    display: inline;
+    width: 10%;
+    
+}
+div > label {
+    display: inline;
+   width: 90%;
+}
+
+#submit {
+    margin: 20px auto;
+    background-color: green;
+    color: aliceblue;
+}
+h1 , p {
+    text-align: center;
+}
